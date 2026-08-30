@@ -1,7 +1,7 @@
 # Healthcare Appointment Absenteeism Patient Risk Modeling SQL | MySQL Workbench | Tableau Public
 ---
 
-  <img width="512" height="512" alt="Hospital" src="https://github.com/user-attachments/assets/089cef07-3997-4e3a-a104-c5ea34a018fd" />
+  <img width="700" height="512" alt="Hospital" src="https://github.com/user-attachments/assets/089cef07-3997-4e3a-a104-c5ea34a018fd" />
 
 ---
 
@@ -9,8 +9,6 @@
 Missed medical appointments significantly disrupt operational efficiency, result in sub-optimal resource utilization, and create gaps in patient care delivery. This project provides an end-to-end data pipeline solution—moving from raw, unstructured healthcare data to an interactive executive dashboard. Using MySQL for data transformation and Tableau Public for visualization, the solution implements data sanitization pipelines, exploratory hypothesis testing, window-function based historical tracking, and a dynamic patient-risk scoring model to identify high-risk appointments prior to their occurrence.
 
 ---
-
-## Project Architecture & Methodology
 
 <div style="font-family: Arial, sans-serif; background-color: #0d1117; color: #c9d1d9; padding: 30px; border-radius: 12px; max-width: 800px; margin: auto;">
   
@@ -75,6 +73,7 @@ Missed medical appointments significantly disrupt operational efficiency, result
 
 </div>
 
+---
 
 - *Database Schema & Data Cleansing*: Standardized variable naming, resolved string-to-datetime formatting errors, and removed invalid demographic and chronological entries.
 
