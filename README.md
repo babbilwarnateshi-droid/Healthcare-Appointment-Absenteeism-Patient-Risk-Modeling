@@ -12,7 +12,7 @@ Missed medical appointments significantly disrupt operational efficiency, result
 
 <div style="font-family: Arial, sans-serif; background-color: #0d1117; color: #c9d1d9; padding: 30px; border-radius: 12px; max-width: 800px; margin: auto;">
   
-  <h2 style="text-align: center; color: #58a6ff; margin-bottom: 25px; letter-spacing: 1px;">HEALTHCARE NO-SHOW ANALYTICS SOLUTION</h2>
+  <h2 style="text-align: center; color: #58a6ff; margin-bottom: 25px; letter-spacing: 1px;">Project Architecture & Methodology</h2>
 
   <!-- Stage 1 -->
   <div style="background: #161b22; border: 1px solid #30363d; border-left: 5px solid #238636; border-radius: 8px; padding: 15px 20px; margin-bottom: 15px;">
