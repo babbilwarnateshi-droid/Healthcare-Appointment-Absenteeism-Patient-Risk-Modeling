@@ -1,7 +1,7 @@
 # Healthcare Appointment Absenteeism Patient Risk Modeling SQL | MySQL Workbench | Tableau Public
 ---
 
-<img width="512" height="512" alt="Hospital" src="https://github.com/user-attachments/assets/089cef07-3997-4e3a-a104-c5ea34a018fd" />
+  <img width="512" height="512" alt="Hospital" src="https://github.com/user-attachments/assets/089cef07-3997-4e3a-a104-c5ea34a018fd" />
 
 ---
 
