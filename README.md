@@ -12,40 +12,68 @@ Missed medical appointments significantly disrupt operational efficiency, result
 
 ## Project Architecture & Methodology
 
-+----------------------------+
-|  Raw Medical CSV Dataset   |
-+----------------------------+
-              |
-              v
-+----------------------------+
-|  MySQL Engine              |
-|  - Schema Standardisation  |
-|  - Datetime Formatting     |
-|  - Data Anomaly Removal    |
-+----------------------------+
-              |
-              v
-+----------------------------+
-|  Exploratory SQL Analysis  |
-|  - Lead-Time Bucketing     |
-|  - Demographic Analysis    |
-|  - Geographic Risk Ranking |
-+----------------------------+
-              |
-              v
-+----------------------------+
-|  Patient Risk Engine       |
-|  - Window Functions        |
-|  - Historical Partitioning |
-|  - Business Logic View     |
-+----------------------------+
-              |
-              v
-+----------------------------+
-|  Tableau Executive Board   |
-|  - Risk Segmentation       |
-|  - Operational Actioning   |
-+----------------------------+
+<div style="font-family: Arial, sans-serif; background-color: #0d1117; color: #c9d1d9; padding: 30px; border-radius: 12px; max-width: 800px; margin: auto;">
+  
+  <h2 style="text-align: center; color: #58a6ff; margin-bottom: 25px; letter-spacing: 1px;">HEALTHCARE NO-SHOW ANALYTICS SOLUTION</h2>
+
+  <!-- Stage 1 -->
+  <div style="background: #161b22; border: 1px solid #30363d; border-left: 5px solid #238636; border-radius: 8px; padding: 15px 20px; margin-bottom: 15px;">
+    <span style="font-size: 12px; color: #8b949e; font-weight: bold;">STEP 01</span>
+    <h3 style="margin: 5px 0 10px 0; color: #f0f6fc;">Raw Medical CSV Dataset</h3>
+  </div>
+
+  <div style="text-align: center; color: #58a6ff; font-size: 20px; margin: -5px 0 10px 0;">↓</div>
+
+  <!-- Stage 2 -->
+  <div style="background: #161b22; border: 1px solid #30363d; border-left: 5px solid #1f6feb; border-radius: 8px; padding: 15px 20px; margin-bottom: 15px;">
+    <span style="font-size: 12px; color: #8b949e; font-weight: bold;">STEP 02</span>
+    <h3 style="margin: 5px 0 10px 0; color: #f0f6fc;">MySQL Engine</h3>
+    <ul style="margin: 0; padding-left: 20px; color: #8b949e; font-size: 14px;">
+      <li>Schema Standardisation</li>
+      <li>Datetime Formatting</li>
+      <li>Data Anomaly Removal</li>
+    </ul>
+  </div>
+
+  <div style="text-align: center; color: #58a6ff; font-size: 20px; margin: -5px 0 10px 0;">↓</div>
+
+  <!-- Stage 3 -->
+  <div style="background: #161b22; border: 1px solid #30363d; border-left: 5px solid #8957e5; border-radius: 8px; padding: 15px 20px; margin-bottom: 15px;">
+    <span style="font-size: 12px; color: #8b949e; font-weight: bold;">STEP 03</span>
+    <h3 style="margin: 5px 0 10px 0; color: #f0f6fc;">Exploratory SQL Analysis</h3>
+    <ul style="margin: 0; padding-left: 20px; color: #8b949e; font-size: 14px;">
+      <li>Lead-Time Bucketing</li>
+      <li>Demographic Analysis</li>
+      <li>Geographic Risk Ranking</li>
+    </ul>
+  </div>
+
+  <div style="text-align: center; color: #58a6ff; font-size: 20px; margin: -5px 0 10px 0;">↓</div>
+
+  <!-- Stage 4 -->
+  <div style="background: #161b22; border: 1px solid #30363d; border-left: 5px solid #d29922; border-radius: 8px; padding: 15px 20px; margin-bottom: 15px;">
+    <span style="font-size: 12px; color: #8b949e; font-weight: bold;">STEP 04</span>
+    <h3 style="margin: 5px 0 10px 0; color: #f0f6fc;">Patient Risk Engine</h3>
+    <ul style="margin: 0; padding-left: 20px; color: #8b949e; font-size: 14px;">
+      <li>Window Functions</li>
+      <li>Historical Partitioning</li>
+      <li>Business Logic View</li>
+    </ul>
+  </div>
+
+  <div style="text-align: center; color: #58a6ff; font-size: 20px; margin: -5px 0 10px 0;">↓</div>
+
+  <!-- Stage 5 -->
+  <div style="background: #161b22; border: 1px solid #30363d; border-left: 5px solid #f85149; border-radius: 8px; padding: 15px 20px;">
+    <span style="font-size: 12px; color: #8b949e; font-weight: bold;">STEP 05</span>
+    <h3 style="margin: 5px 0 10px 0; color: #f0f6fc;">Tableau Executive Board</h3>
+    <ul style="margin: 0; padding-left: 20px; color: #8b949e; font-size: 14px;">
+      <li>Risk Segmentation</li>
+      <li>Operational Actioning</li>
+    </ul>
+  </div>
+
+</div>
 
 
 - *Database Schema & Data Cleansing*: Standardized variable naming, resolved string-to-datetime formatting errors, and removed invalid demographic and chronological entries.
